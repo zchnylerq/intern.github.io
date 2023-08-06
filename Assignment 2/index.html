@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="msgbox">
+        <img src="contact.jpg" alt="Contact" class="img">
+        <form action="#" method="post">
+            <h1>Contact Us</h1>
+            <label>Name:</label>
+                <input type="text" placeholder="Enter Name">
+            <label>Email:</label>
+                <input type="email" placeholder="Enter Email">
+            <label>Message:</label>
+            <br>
+            <textarea placeholder="Leave us a message."></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="loginbox">
+        <img src="login icon.jpg" alt="Login" class="img">
+        <form action="#" method="post">
+            <h1>Login</h1>
+            <label>Username:</label>
+                <input type="text" placeholder="Enter Username">
+            <label>Password:</label>
+                <input type="password" placeholder="Enter Password">
+            <input type="submit" value="Login">
+        </form>
+    </div>
+    <div class="surveybox">
+        <img src="survey.jpg" alt="Survey" class="img">
+        <form action="#" method="post">
+            <h1>Survey</h1>
+            <label>Name:</label>
+                <input type="text" placeholder="Enter Name">
+            <label>Age:</label>
+                <input type="number" placeholder="Enter Age">
+            <label>Gender:</label>
+                <input type="radio" name="source" value="male" class="inputradio" checked>Male
+                <input type="radio" name="source" value="female" class="inputradio" checked>Female
+                <input type="radio" name="source" value="not to say" class="inputradio" checked>Prefer not to say
+            <br><br>
+            <label>Which programming languages do you know?</label>
+                <input type="checkbox" class="checkbox">C++
+                <input type="checkbox" class="checkbox">JavaScript
+                <input type="checkbox" class="checkbox">SQL
+            
+            <br><br>
+            <label>Comments:</label>
+            <br>
+            <textarea placeholder="Leave us a Comment"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
