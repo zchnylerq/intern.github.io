@@ -5,9 +5,49 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.conA1 {
+ul{
+    margin: 2px;
+    padding: 5px;
+    list-style:none;
+}
+
+ul li{
+    float: left;
+    width: 25%;
+    height: 40px;
+    background-color: #503b17;
+    line-height: 40px;
     text-align: center;
-    margin-top: 10%;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #E6B325;
+    display: block;
+}
+
+ul li a:hover{
+    background-color: #BF9742;
+    color: #3b2a0c;
+}
+
+ul li ul li{
+    display: none;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    color: #503b17;
+    font-size: 12px;
+}
+
+ul li:hover ol li {
+    display: block;
+}
+
+.info {
+    text-align: center;
+    margin-top: 15%;
 }
 
 .hello {
@@ -30,57 +70,6 @@ body {
     color: #fac32b;
 }
 
-.conA2 {
-    text-align: center;
-    margin-top: 5%;
-    width: 80%;
-    margin: 10%;
-    background-color: #503b17;
-    padding: 15px 15px;
-    border-radius: 30px;
-}
-
-.conB, .conC{
-    text-align: center;
-    width: 80%;
-    margin: 10%;
-    background-color: #503b17;
-    padding: 15px 15px;
-    border-radius: 30px;
-}
-
-.lead {
-    font-weight: bold;
-    font-size: 24px;
-    margin-top: 2%;
-}
-
-nav {
-    display: flex;
-    width: 84%;
-    margin-top: auto;
-    margin-left: 25%;
-    padding: 20px 0;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-}
-
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 10px 20px;
-    height: 100px;
-    width: 190px;
-    padding: 10px;
-    background: #BF9742;;
-    border-radius: 24px;
-}
-
-nav ul li a{
-    text-decoration:underline;
-    font-style: italic;
-    color: #fff;
-    font-size: 15px;
-
+section {
+    display: block;
 }
